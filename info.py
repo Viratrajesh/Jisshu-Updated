@@ -43,8 +43,8 @@ FILES_DATABASE = environ.get('FILES_DATABASE', "mongodb+srv://Rajeah:Rajeah@raje
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Rajesh2')
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001864434358'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002633073907'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002058942218'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001864434358') 
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001864434358')) 
@@ -56,7 +56,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Askmovieslink3'
 # Verification
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Askmovieslink1")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Askmovie-1002058942218slink1")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Askmovieslink1")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Askmovieslink1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
